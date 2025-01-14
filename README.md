@@ -100,4 +100,4 @@ Refer to [SQLModel](https://sqlmodel.tiangolo.com/) for documentation on how to 
 
 Ask your favorite LLM for help if you need it.
 
-You can find example usage in [demo.ipybn](/demo.ipynb).
+You can find example notebook in [demo.ipynb](/demo.ipynb).
