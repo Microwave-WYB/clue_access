@@ -1,0 +1,25 @@
+[project]
+name = "clue_access"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Yibo Wei", email = "david_wyb2001@outlook.com" }]
+requires-python = ">=3.12"
+dependencies = [
+    "geoalchemy2>=0.17.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "nbformat>=5.10.4",
+    "plotly>=5.24.1",
+    "psycopg2>=2.9.10",
+    "shapely>=2.0.6",
+    "sqlalchemy>=2.0.37",
+    "sqlmodel>=0.0.22",
+]
+
+[project.scripts]
+clue_access = "clue_access:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
