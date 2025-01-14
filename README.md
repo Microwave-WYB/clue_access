@@ -43,6 +43,18 @@ Install the package using `pip` (must be 3.12+)
 pip install git+https://github.com/Microwave-WYB/clue_access.git
 ```
 
+To check database connection, you can run in the command line:
+
+```bash
+clue_access
+```
+
+If you see the following output, you are good to go:
+
+```bash
+Successfully connected to the database
+```
+
 ## Usage
 
 Hello world example:
